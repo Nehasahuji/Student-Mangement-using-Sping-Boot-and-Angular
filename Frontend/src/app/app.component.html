@@ -1,0 +1,24 @@
+<div class="app-background"></div>
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark ">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a routerLink="students" routerLinkActive="active" class="nav-link">Student List</a>
+        </li>
+        <li class="nav-item">
+            <a routerLink="create-student" routerLinkActive="active" class="nav-link">Add Student</a>
+        </li>
+
+    </ul>
+</nav>
+<div class = "app-background"> 
+    <h1 class="text-center">{{title}}</h1>
+    <div class="container">
+        <router-outlet></router-outlet>
+    </div>
+</div>
+<footer class=footer>
+    <div class="container">
+        <span>All rights Reserved 2021 @sahuneha</span>
+    </div>
+
+</footer>

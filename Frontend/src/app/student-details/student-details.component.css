@@ -1,0 +1,29 @@
+/* .create-student-background {
+  background: url("/../assets/create-student-bg.jpg") no-repeat center
+    center/cover;
+  height: 76vh;
+  width: 87vw;
+} */
+
+h3 {
+  text-align: center;
+  margin-right: 8.5%;
+}
+
+.form-group {
+  position: relative;
+}
+
+.inside {
+  position: relative;
+  margin-left: 22%;
+}
+
+.details {
+  text-align: left;
+  margin-left: 30%;
+  height: 50vh;
+  width: 33%;
+  padding-top: 9%;
+  background-color: rgb(96, 79, 252);
+}

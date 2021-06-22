@@ -1,0 +1,12 @@
+.create-student-background {
+  background: url("/../assets/create-student-bg.jpg") no-repeat center
+    center/cover;
+  height: 76vh;
+  width: 87vw;
+}
+
+h3 {
+  text-align: right;
+  margin-right: 8.5%;
+}
+
